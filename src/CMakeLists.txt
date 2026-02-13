@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "main.cpp"
+        "user_commands.cpp"
+        "generated/autogen_commands.cpp"
+        "generated/autogen_functions.cpp"
+    INCLUDE_DIRS
+        "."
+        "generated"
+        "../customlib/include"
+)
