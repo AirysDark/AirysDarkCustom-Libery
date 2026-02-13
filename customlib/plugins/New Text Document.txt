@@ -1,0 +1,6 @@
+def on_missing_command(name):
+    return f"""
+void {name.replace(".", "_")}() {{
+    log("Auto-generated command: {name}");
+}}
+"""
