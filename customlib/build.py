@@ -1,5 +1,8 @@
-from generators.command_generator import generate_commands
-from generators.function_generator import generate_functions
+Import("env")
 
-generate_commands("src/", "src/generated/autogen_commands.cpp")
-generate_functions("src/", "src/generated/autogen_functions.cpp")
+print("############################################")
+print("### AirysDarkCustom-Libery BUILD SCRIPT ####")
+print("############################################")
+
+# Hard fail to prove execution
+raise Exception("CustomLib build.py IS RUNNING")
